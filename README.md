@@ -10,9 +10,9 @@ A checksums, Modulus10 Algorithm in JavaScript (ES module)
 ```js
 import { Modulus10 } from "https://code4fukui.github.io/Modulus10.js/Modulus10.js";
 
-console.log(Modulus10.calc("011101042092")); // 3
-console.log(Modulus10.check("3011101042092")); // true
-console.log(Modulus10.addCheckDigit("011101042092")); // "3011101042092"
+console.log(Modulus10.calc("978477101067")); // 3
+console.log(Modulus10.check("9784771010673")); // true
+console.log(Modulus10.addCheckDigit("978477101067")); // "9784771010673"
 ```
 
 ## test
