@@ -1,15 +1,13 @@
 # Modulus10
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+チェックディジットアルゴリズム、Modulus10。
 
-A check digit algorithm, Modulus10.
+## 特徴
 
-## Features
+- EAN/JAN（バーコード）およびISBNのチェックディジット計算をサポート
+- JavaScript（ESモジュール）による実装
 
-- Supports EAN/JAN (barcodes) and ISBN check digit calculation
-- Implemented in JavaScript (ES module)
-
-## Usage
+## 使い方
 
 ```js
 import { Modulus10 } from "https://code4fukui.github.io/Modulus10/Modulus10.js";
@@ -19,16 +17,16 @@ console.log(Modulus10.check("9784771010673")); // true
 console.log(Modulus10.addCheckDigit("978477101067")); // "9784771010673"
 ```
 
-## Test
+## テスト
 
 ```
 deno test
 ```
 
-## Demo
+## デモ
 
 [Modulus10.js test](https://code4fukui.github.io/Modulus10/)
 
-## License
+## ライセンス
 
-MIT License — see [LICENSE](LICENSE).
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
